@@ -1,0 +1,109 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Footer css Start
+=========================================================*/
+#footer{
+    padding: 50px 0 20px;
+
+    .footer_top{
+        .footer_top_btns{
+            text-align: right;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: end;
+                li{
+                    margin-left: 5px;
+                    a{
+                        padding: 10px 25px;
+                        border-radius: 10px;
+                        @include fs($w,18px,400);
+                        transition: all linear .3s;
+                        &.active{
+                            color: $b;
+                            background: $hover;
+                            &:hover{
+                                color: $b;
+                                background: $w;
+                            }
+                        }
+                        &:hover{
+                            color: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_mid{
+        margin-top: 50px;
+        .footer_mid_left{
+            h4{
+                @include fs($w,32px,700);
+                margin-bottom: 40px;
+            }
+            a{
+                @include fs($w,15px,400);
+                margin-bottom: 30px;
+                &:hover{
+                    color: $hover;
+                }
+            }
+            .social_icon{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    margin-right: 15px;
+                    a{
+                        i{
+                            color: $w;
+                            font-size: 15px;
+                        }
+                        &:hover{
+                            i{
+                                color: $hover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer_mid_right{
+            h6{
+                @include fs($hover,20px,700);
+                margin-bottom: 20px;
+            }
+            ul{
+                li{
+                    margin-bottom: 10px;
+                    a{
+                        @include fs($w,16px,400);
+                        transition: all linear .3s;
+                        &:hover{
+                            color: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_bottom{
+        margin-top: 50px;
+        p{
+            text-align: center;
+            @include fs($w,15px,400);
+            opacity: .7;
+            a{
+                color: $w;
+                &:hover{
+                    color: $hover;
+                }
+            }
+        }
+    }
+}
+/*=========================================================
+                    Footer css end
+=========================================================*/

@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*=========================================================
+                    Common css end
+=========================================================*/
+/*=========================================================
+                    Menu css Start
+=========================================================*/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  padding: 20px 0;
+}
+.navbar .navbar-nav .nav-item {
+  margin-left: 30px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all linear 0.3s;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #000;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #000;
+}
+
+/*=========================================================
+                    Menu css end
+=========================================================*/
+/*=========================================================
+                    Banner css Start
+=========================================================*/
+#banner {
+  padding: 250px 0;
+}
+#banner .banner_text h6 {
+  color: #FBD784;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+#banner .banner_text h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+#banner .banner_text h1 span {
+  display: block;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+/*=========================================================
+                    Banner css end
+=========================================================*/
+/*=========================================================
+                  Common Section css Start
+=========================================================*/
+#com_section {
+  padding: 200px 0;
+}
+#com_section .com_sec_inner {
+  align-items: center;
+}
+#com_section .com_sec_inner .com_sec_image img {
+  width: 100%;
+  max-width: 100%;
+}
+#com_section .com_sec_inner .com_sec_text h6 {
+  color: #FBD784;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+#com_section .com_sec_inner .com_sec_text h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#com_section .com_sec_inner .com_sec_text p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+#com_section .com_sec_inner .com_sec_text a {
+  color: #FBD784;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#com_section .com_sec_inner .com_sec_text a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*=========================================================
+                  Common Section css end
+=========================================================*/
+/*=========================================================
+                    Climb css Start
+=========================================================*/
+#climb .climb_inner {
+  padding: 400px 0 50px;
+}
+#climb .climb_inner .climb_text {
+  text-align: center;
+}
+#climb .climb_inner .climb_text h6 {
+  color: #FBD784;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+#climb .climb_inner .climb_text h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#climb .climb_inner .climb_text p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+#climb .climb_inner .climb_text a {
+  color: #FBD784;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#climb .climb_inner .climb_text a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/*=========================================================
+                    Climb css end
+=========================================================*/
+/*=========================================================
+                    Footer css Start
+=========================================================*/
+#footer {
+  padding: 50px 0 20px;
+}
+#footer .footer_top .footer_top_btns {
+  text-align: right;
+}
+#footer .footer_top .footer_top_btns ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+#footer .footer_top .footer_top_btns ul li {
+  margin-left: 5px;
+}
+#footer .footer_top .footer_top_btns ul li a {
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all linear 0.3s;
+}
+#footer .footer_top .footer_top_btns ul li a.active {
+  color: #000;
+  background: #FBD784;
+}
+#footer .footer_top .footer_top_btns ul li a.active:hover {
+  color: #000;
+  background: #fff;
+}
+#footer .footer_top .footer_top_btns ul li a:hover {
+  color: #FBD784;
+}
+#footer .footer_mid {
+  margin-top: 50px;
+}
+#footer .footer_mid .footer_mid_left h4 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+#footer .footer_mid .footer_mid_left a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+#footer .footer_mid .footer_mid_left a:hover {
+  color: #FBD784;
+}
+#footer .footer_mid .footer_mid_left .social_icon {
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer .footer_mid .footer_mid_left .social_icon li {
+  margin-right: 15px;
+}
+#footer .footer_mid .footer_mid_left .social_icon li a i {
+  color: #fff;
+  font-size: 15px;
+}
+#footer .footer_mid .footer_mid_left .social_icon li a:hover i {
+  color: #FBD784;
+}
+#footer .footer_mid .footer_mid_right h6 {
+  color: #FBD784;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#footer .footer_mid .footer_mid_right ul li {
+  margin-bottom: 10px;
+}
+#footer .footer_mid .footer_mid_right ul li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all linear 0.3s;
+}
+#footer .footer_mid .footer_mid_right ul li a:hover {
+  color: #FBD784;
+}
+#footer .footer_bottom {
+  margin-top: 50px;
+}
+#footer .footer_bottom p {
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+#footer .footer_bottom p a {
+  color: #fff;
+}
+#footer .footer_bottom p a:hover {
+  color: #FBD784;
+}
+
+/*=========================================================
+                    Footer css end
+=========================================================*//*# sourceMappingURL=style.css.map */

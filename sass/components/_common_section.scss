@@ -1,0 +1,51 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                  Common Section css Start
+=========================================================*/
+#com_section{
+    padding: 200px 0;
+
+    .com_sec_inner{
+        align-items: center;
+        .com_sec_image{
+            img{
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    
+        .com_sec_text{
+            h6{
+                @include fs($hover,18px,700);
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                margin-bottom: 20px;
+            }
+            h2{
+                @include fs($w,60px,700);
+                line-height: 120%;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+            p{
+                @include fs($w,14px,500);
+                line-height: 28px;
+                margin-bottom: 50px;
+            }
+            a{
+                @include fs($hover,18px,700);
+                text-transform: uppercase;
+                &:hover{
+                    color: $w;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
+/*=========================================================
+                  Common Section css end
+=========================================================*/

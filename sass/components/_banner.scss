@@ -1,0 +1,29 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Banner css Start
+=========================================================*/
+#banner{
+    padding: 250px 0;
+    
+    .banner_text{
+        h6{
+            @include fs($hover,18px,600);
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-bottom: 25px;
+        }
+        h1{
+            span{
+                display: block;
+                @include fs($w,80px,700);
+                margin-bottom: 5px;
+            }
+            @include fs($w,60px,400);
+        }
+    }
+}
+/*=========================================================
+                    Banner css end
+=========================================================*/

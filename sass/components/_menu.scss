@@ -1,0 +1,33 @@
+@import '../mixins/mixins';
+@import '../variables/variable';
+
+/*=========================================================
+                    Menu css Start
+=========================================================*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    padding: 20px 0;
+
+    .navbar-nav{
+        .nav-item{
+            margin-left: 30px;
+            .nav-link{
+                @include fs($w,16px,500);
+                transition: all linear .3s;
+                &.active{
+                    color: $b;
+                }
+                &:hover{
+                    color: $b;
+                }
+            }
+        }
+    }
+}
+/*=========================================================
+                    Menu css end
+=========================================================*/
